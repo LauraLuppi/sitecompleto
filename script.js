@@ -1,3 +1,26 @@
+// contato
+document.getElementById("meuForm").addEventListener("submit", function (event){
+    event.preventDefault(); //impede o envio padrão do formulário
+
+    //Cpatura os valores dos campos do formulário
+    let nome = document.getElementById("nome").value;
+    let s_nome = document.getElementById("s_nome").value;
+    let email = document.getElementById("email").value;
+    let mensagem = document.getElementById("mensagem").value;
+
+    //verificação de campos vazios
+    if(nome === "" || s_nome === "" || email === "" || mensagem === ""){
+        alert("Por favor, preencha todos os campos.");
+        return;
+    }
+
+    alert("Enviado com sucesso!");
+
+    document.getElementById('meuForm').reset();
+});
+
+
+// quiz
 function disableOptions(questionName) {
     let options = document.getElementsByName(questionName);
     options.forEach(option => {
@@ -77,6 +100,8 @@ function resetQuiz() {
     let result = document.getElementById('result');
     result.innerHTML = "";
 }
+
+
 
 
 
