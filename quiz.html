@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/twist.png" type="image/x-icon">
+    <title>Quiz Twits Gelato</title>
+</head>
+<body id="quiz">
+
+    <header>
+        <h1 id="tw">Twits Gelato </h1>
+        <h4 id="um">Um mundo de sabores esperando por você</h4>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="servicos.html">Serviços</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contato.html">Contato</a>
+            <a href="quiz.html">Quiz</a>
+        </nav>
+    </header>
+
+    <section class="quiz-section">
+        <h2 id="q">Quiz Twists Gelato</h2>
+        <form id="quiz-form">
+
+            <section class="question">
+                <h3>1. Qual é o principal ingrediente utilizado na produção dos nossos sorvetes? </h3>
+                <label><input type="radio" name="q1" value="A" onclick="disableOptions ('q1'), playSound()">A)Açúcar artificial </label><br>
+                <label><input type="radio" name="q1" value="B" onclick="disableOptions ('q1'), playSound()">B) Ingredientes frescos e naturais  </label><br>
+                <label><input type="radio" name="q1" value="C" onclick="disableOptions ('q1'), playSound()">C)Corantes artificiais </label><br>
+                <label><input type="radio" name="q1" value="D" onclick="disableOptions ('q1'), playSound()">D)Leite em pó reconstituído  </label><br>
+            </section>
+
+            <section class="question">
+                <h3>2. Qual a nossa maior preocupação na hora de criar um novo sabor?</h3>
+                <label><input type="radio" name="q2" value="A" onclick="disableOptions ('q2'), playSound()">A)Fazer um sabor diferente de todos os outros </label><br>
+                <label><input type="radio" name="q2" value="B" onclick="disableOptions ('q2'), playSound()">B)   Utilizar ingredientes baratos</label><br>
+                <label><input type="radio" name="q2" value="C" onclick="disableOptions ('q2'), playSound()">C) Garantir um sabor delicioso e autêntico</label><br>
+                <label><input type="radio" name="q2" value="D" onclick="disableOptions ('q2'), playSound()">D)Tornar o sorvete o mais doce possível  </label><br>
+            </section>
+
+            <section class="question">
+                <h3>3. Além dos sorvetes, quais outros produtos oferecemos? </h3>
+                <label><input type="radio" name="q3" value="A" onclick="disableOptions ('q3'), playSound()">A)Apenas picolés </label><br>
+                <label><input type="radio" name="q3" value="B" onclick="disableOptions ('q3'), playSound()">B)Sundaes, milk-shakes e outras sobremesas </label><br>
+                <label><input type="radio" name="q3" value="C" onclick="disableOptions ('q3'), playSound()">C)Somente sorvetes </label><br>
+                <label><input type="radio" name="q3" value="D" onclick="disableOptions ('q3'), playSound()">D)Tortas e bolos </label><br>
+            </section>
+
+            <section class="question">
+                <h3>4. Qual é o nosso principal objetivo?</h3>
+                <label><input type="radio" name="q4" value="A" onclick="disableOptions ('q4'), playSound()">A)Vender o maior número de sorvetes possível  </label><br>
+                <label><input type="radio" name="q4" value="B" onclick="disableOptions ('q4'), playSound()">B)  Trazer alegria e satisfação aos nossos clientes </label><br>
+                <label><input type="radio" name="q4" value="C" onclick="disableOptions ('q4'), playSound()">C) Ser a sorveteria mais barata da cidade </label><br>
+                <label><input type="radio" name="q4" value="D" onclick="disableOptions ('q4'), playSound()">D)   Competir com as grandes marcas de sorvete </label><br>
+            </section>
+            
+            <section class="question">
+                <h3>5. Por que nossos sorvetes são considerados artesanais?</h3>
+                <label><input type="radio" name="q5" value="A" onclick="disableOptions ('q5'), playSound()">A)São produzidos em grande escala </label><br>
+                <label><input type="radio" name="q5" value="B" onclick="disableOptions ('q5'), playSound()">B) São feitos com muito cuidado e dedicação, utilizando processos tradicionais  </label><br>
+                <label><input type="radio" name="q5" value="C" onclick="disableOptions ('q5'), playSound()">C)São fabricados em uma grande indústria </label><br>
+                <label><input type="radio" name="q5" value="D" onclick="disableOptions ('q5'), playSound()">D) São vendidos apenas em embalagens pequenas  
+                </label><br>
+            </section>
+
+            <section class="question">
+                <h3>6. Oferecemos opções para pessoas com restrições alimentares?</h3>
+                <label><input type="radio" name="q6" value="A" onclick="disableOptions ('q6'), playSound()">A)Não, apenas sorvetes tradicionais </label><br>
+                <label><input type="radio" name="q6" value="B" onclick="disableOptions ('q6'), playSound()">B)   Sim, temos opções veganas, sem lactose e sem glúten </label><br>
+                <label><input type="radio" name="q6" value="C" onclick="disableOptions ('q6'), playSound()">C)Apenas para pessoas com alergia a leite </label><br>
+                <label><input type="radio" name="q6" value="D" onclick="disableOptions ('q6'), playSound()">D)Somente para crianças </label><br>
+            </section>
+
+            <section class="question">
+                <h3>7. Qual a importância dos ingredientes locais na produção dos nossos sorvetes?</h3>
+                <label><input type="radio" name="q7" value="A" onclick="disableOptions ('q7'), playSound()">A)Reduzir custos </label><br>
+                <label><input type="radio" name="q7" value="B" onclick="disableOptions ('q7'), playSound()">B)Valorizar os produtores locais e garantir a frescura dos ingredientes  </label><br>
+                <label><input type="radio" name="q7" value="C" onclick="disableOptions ('q7'), playSound()">C) Não tem importância </label><br>
+                <label><input type="radio" name="q7" value="D" onclick="disableOptions ('q7'), playSound()">D)  Facilitar o transporte dos ingredientes </label><br>
+            </section>
+            
+            <section class="question">
+                <h3>8. Realizamos eventos e festas com sorvete?</h3>
+                <label><input type="radio" name="q8" value="A" onclick="disableOptions ('q8'), playSound()">A)Não, apenas vendemos sorvetes na loja </label><br>
+                <label><input type="radio" name="q8" value="B" onclick="disableOptions ('q8'), playSound()">B)  Sim, personalizamos nossos sorvetes para eventos especiais </label><br>
+                <label><input type="radio" name="q8" value="C" onclick="disableOptions ('q8'), playSound()">C)Apenas para festas infantis </label><br>
+                <label><input type="radio" name="q8" value="D" onclick="disableOptions ('q8'), playSound()">D)Somente para casamentos </label><br>
+            </section>
+
+            <section class="question">
+                <h3>9. Qual a importância da sustentabilidade para a nossa sorveteria?</h3>
+                <label><input type="radio" name="q9" value="A" onclick="disableOptions ('q9'), playSound()">A)Não nos preocupamos com o meio ambiente </label><br>
+                <label><input type="radio" name="q9" value="B" onclick="disableOptions ('q9'), playSound()">B)Buscamos práticas sustentáveis em toda a nossa produção </label><br>
+                <label><input type="radio" name="q9" value="C" onclick="disableOptions ('q9'), playSound()">C)Apenas utilizamos embalagens recicláveis </label><br>
+                <label><input type="radio" name="q9" value="D" onclick="disableOptions ('q9'), playSound()">D)Reduzimos o consumo de água </label><br>
+            </section>
+
+            <section class="question">
+                <h3>10. Qual a melhor parte de trabalhar em uma sorveteria?</h3>
+                <label><input type="radio" name="q10" value="A" onclick="disableOptions ('q10'), playSound()">A)Ganhar dinheiro </label><br>
+                <label><input type="radio" name="q10" value="B" onclick="disableOptions ('q10'), playSound()">B)Provar os sorvetes todos os dias  </label><br>
+                <label><input type="radio" name="q10" value="C" onclick="disableOptions ('q10'), playSound()">C) Ver a felicidade dos clientes ao saborearem nossos produtos </label><br>
+                <label><input type="radio" name="q10" value="D" onclick="disableOptions ('q10'), playSound()">D)Trabalhar em um ambiente frio </label><br>
+
+            </section>
+
+            
+            <button id="enviarBtn" type="button"  onclick="submitQuiz()">Enviar respostas</button>
+            <br>
+
+            <button id="resetBtn" type="button" onclick="resetQuiz()" disabled>Jogar novamente</button>
+
+        </form>
+
+        <audio id="venceuSom" src="som/venceu.mp3" preload="auto"></audio>
+        <audio id="selecionaSom" src="som/seleciona.mp3" preload="auto"></audio>
+        <audio id="perdeuSom" src="som/perdeu.mp3" preload="auto"></audio>
+
+        <section id="result"></section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

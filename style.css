@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&display=swap');
+
+:root {
+    --rosa1: #ffc7c9;
+    --rosa2: #FFA6AC;
+    --rosa3: #F28087;
+    --rosa4: #F26684;
+    --rosa5: #D64260;
+
+    --fontg: "Cherry Cream Soda", system-ui, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--rosa1);
+    background-attachment: fixed;
+    color: white;
+    font-family: var(--fontg);
+}
+
+header{
+    height: 150px;
+    background-color: var(--rosa2);
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-variant: small-caps;
+}
+
+h1#tw {
+    font-size: 7vh;
+}
+
+h4#um {
+    font-size: 2vh;
+
+}
+
+nav{
+    background-color: #a62454;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #3a3238;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+}
+
+nav > a:hover{
+    text-decoration: overline;
+}
+
+main{
+    background-color: var(--rosa1);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ #info{
+    background-color: var(--rosa4);
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    font-size: 2.3vh;
+} 
+
+#lado{
+    width: 200px;
+    height: 200px;
+    font-size: 2vh;
+    background-color: var(--rosa4);
+    padding: 5px;
+    padding-right: 20px;
+    padding-left: 10px;
+    margin-right: 15px;
+    float: right;
+    font-style: italic;
+    border-radius: 10px;
+    border: 2px dashed #ffffff;
+    box-shadow: 7px 7px 7px #011526;
+    color: rgb(248, 248, 248); 
+}
+
+#lado1{
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: right;
+    border-style: solid;
+    border-color: var(--rosa1);
+    border-radius: 10px 10px 10px 10px;
+}
+
+#home {
+   padding-left: 30px;  
+}
+
+article{
+    background-color: var(--rosa5); 
+    border-radius: 5px;
+}
+
+article > aside{
+    background-color: var(--rosa1);
+    border-radius: 5px;
+}
+
+footer{
+    background-color: #a62454;
+    color: #f7edea;
+    text-align: center;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 30px;
+}
+
+audio {
+    height: 0px;
+}
+
+
+
+/* serviços */
+
+h2 {
+    padding-left: 10px;
+    font-size: 1.7em;
+}
+
+mark {
+    background-color: #a624549d;
+    color: white;
+}
+
+#alguns {
+    margin-left: 10px;
+}
+
+p#infor {
+    padding-left: 30px;
+}
+
+#sobre{
+    background-color: var(--rosa3);
+}
+
+#s_lado{
+    width: 300px;
+    height: 310px;
+    font-size: 2vh;
+    background-color: var(--rosa4);
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    float: right;
+    font-style: italic;
+    border-radius: 10px;
+    border: 2px dashed #ffffff;
+    box-shadow: 7px 7px 7px #011526a5;
+    color: rgb(248, 248, 248); 
+}
+
+#s_lado2{
+    width: 360px;
+    height: 400px;
+    font-size: 2vh;
+    background-color: var(--rosa4);
+    padding: 5px;
+    padding-right: 10px;
+    padding-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 10px;
+    float: left;
+    font-style: italic;
+    border-radius: 10px;
+    border: 2px dashed #ffffff;
+    box-shadow: 7px 7px 7px #01152679;
+    color: rgb(248, 248, 248); 
+}
+
+
+
+
+/* contato */
+
+ #container{
+    height: 45vh;
+    width: 35%;
+    display: flex;
+    background-color: var(--rosa5);
+    margin: auto;
+    padding-left: 10px;
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px #0115266e;
+}   
+
+#header_form{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70px;
+}
+
+#header_form h1{
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    padding: 5px;
+}
+
+#inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 10%;
+    gap: 10px;
+}
+
+#input_field > i{
+    font-size: 18px;
+    cursor: text;
+}
+
+#input_field > input{
+    border: none;
+    width: 290px;
+    height: 30px;
+    background-color: var(--rosa1);
+    padding: 0px 5px;
+    border-radius: 5px; 
+    box-shadow: 7px 7px 7px #0115266e;
+}
+
+#input_field > input:focus{
+    outline: none;
+}
+
+#mensagem {
+    border: none;
+    width: 290px;
+    height: 50px;
+    background-color: var(--rosa1);
+    padding: 0px 5px;
+    border-radius: 5px; 
+    box-shadow: 7px 7px 7px #0115266e;
+}
+
+#men {
+    position: relative;
+    bottom: 30px;
+}  
+
+button#cont {
+    width: 50%;
+    margin-right: 10%;
+    margin-top: 10px;
+}
+
+
+
+#nosso {
+    width: 60%;
+    background-color: var(--rosa5);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 7px 7px 7px #0115266e;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#contato {
+    padding: 20px;
+    font-size: 4vh;
+}
+
+img#mapa {
+    width: 15%;
+    height: 15%;
+    padding-bottom: 10px;
+    margin-left: 30%;
+    border-radius: 60px;
+}
+
+
+
+
+/* produtos */
+#info_pro {
+    background-color: var(--rosa4);
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+    font-size: 2.3vh;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#pro {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+section.imagem {
+    background-attachment: fixed;
+    padding: 200px;
+} 
+
+section#img01 {
+    background-image: url(img/sorvetes.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img02 {
+    background-image: url(img/acompanhamentos.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img03 {
+    background-image: url(img/sobremesas.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img04 {
+    background-image: url(img/bebidas.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img05 {
+    background-image: url(img/v_l.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img06 {
+    background-image: url(img/criança.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img07 {
+    background-image: url(img/sorv_quente.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+iframe {
+    width: 60%;
+    height: 600px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#geral {
+    font-size: 2.3em;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+
+ul#produtos {
+    font-size: 1.5em;
+    line-height: 2em;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+
+
+/* quiz */
+.playwrite {
+    font-family: var(--fontg);
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  } 
+
+body#quiz {
+    background-color: var(--rosa1);
+}
+
+.quiz-section {
+    background-color: var(--rosa5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width: 800px;
+    margin-left: 26%;
+    margin-bottom: 20px;
+}
+
+section.question, button, h2#q {
+    font-family: var(--fontg);
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #a62454;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 70px;
+    
+}
+
+button {
+    margin-left: 80px;
+}
+
+button:hover {
+    background-color: var(--rosa4);
+    transform: scale(1.01);
+}
+
+button:disabled {
+    background-color: #a624547a;
+    cursor: not-allowed;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
