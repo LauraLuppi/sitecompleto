@@ -19,6 +19,23 @@
             <a href="contato.html">Contato</a>
             <a href="quiz.html">Quiz</a>
         </nav>
+
+        <div id="controle-fonte">
+                <button onclick="aumentarFonte()">A+</button>
+                <button onclick="diminuirFonte()">A-</button>
+        </div>
+
+        <div vw class="enabled">
+            <div vw-access-button class="active"></div>
+            <div vw-plugin-wrapper>
+                <div class="vw-plugin-top-wrapper"></div>
+            </div>
+        </div>
+
+        <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+        <script>
+            new window.VLibras.Widget('https://vlibras.gov.br/app');
+        </script>
     </header>
     
     <section id="info_pro">
@@ -115,6 +132,7 @@
             <a href="https://www.instagram.com/laura_luppy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Instagram da CEO</a>
         </p>
     </footer>
+    <script src="script.js"></script>
 
 </body>
 </html>
